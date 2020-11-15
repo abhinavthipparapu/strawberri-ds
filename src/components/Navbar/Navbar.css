@@ -1,0 +1,22 @@
+.logo {
+  text-decoration: none;
+  color: red !important;
+}
+
+.logo:hover {
+  border-color: rgb(203, 206, 216);
+  border-radius: 5px;
+}
+
+a {
+  color: red !important;
+  text-decoration: none;
+  background: rgb(153, 228, 228);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+a:hover {
+  border-color: rgb(203, 206, 216);
+  border-radius: 5px;
+}

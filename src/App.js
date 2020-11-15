@@ -1,12 +1,15 @@
 import './App.css';
-import UploadCard from './components/UploadCard/UploadCard';
+import Navbar from "./components/Navbar/Navbar"
+import Routers from './components/Routes';
 
 function App() {
   return (
     <div className="App">
-      <div>Strawberri</div>
-      <div className="UploadCard">
-        <UploadCard />
+      <div className="Navbar">
+        <Navbar />
+      </div>
+      <div>
+        <Routers />
       </div>
     </div>
   );
